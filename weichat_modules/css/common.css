@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 微软雅黑;
+}
+
+.border{
+    border: 1px red solid;
+}
+
+.x_y_center{
+    align-items: center;
+    justify-content: center;
+}
+
+#contain{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.items_hr{
+     border: none;
+     border-top:1px #8a8a8a solid;
+     width:90% ;
+     margin: 0 auto;
+ }
+.content_hr{
+    border: none;
+    border-top:1px #DCD9D8 solid;
+    width:100% ;
+    margin-left: 20px;
+}
+
+.dispaly_none{
+    display: none;
+}

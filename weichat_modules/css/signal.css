@@ -1,0 +1,112 @@
+#signal{
+    height: 32px;
+    background: #212121;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ebedf4;
+    display: flex;
+
+    justify-content: space-between;
+}
+/*左边*/
+#signal_left{
+    height: 30px;
+    flex: 1;
+    display: flex;
+}
+#signal_left>div{
+    margin-left: 6px;
+}
+#signal_area{
+    width: 25px;
+    height: 27px;
+    display: flex;
+    align-items: flex-end;
+}
+.signal_area_sig{
+    background-color: whitesmoke;
+    width: 4px;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+.sig_lost{
+    background-color: #8a8a8a;
+}
+.signal_area_sig:nth-child(1){
+    height: 8px;
+}
+.signal_area_sig:nth-child(2){
+    height: 12px;
+}
+.signal_area_sig:nth-child(3){
+    height: 15px;
+}
+.signal_area_sig:nth-child(4){
+    height: 18px;
+}
+#operator{
+    line-height: 32px;
+
+}
+#xg{
+    line-height: 32px;
+    width: 20px;
+    padding-left: 3px;
+}
+/*左边结束*/
+
+
+
+#signal_center{
+    height: 32px;
+    width: 80px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+
+/*右边*/
+#signal_right{
+    height: 32px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#signal_right>div{
+    margin-right: 3px;
+}
+
+#percent_99{
+
+    line-height: 32px;
+}
+#battery{
+    height: 14px;
+    width: 40px;
+    display: flex;
+}
+#battery_body{
+    border: 1px whitesmoke solid;
+    border-radius: 4px;
+    height: 14px;
+    width: 30px;
+}
+#battery_inside{
+    border-radius: 1px;
+    height: 10px;
+    width: 22px;
+    margin: 2px;
+    background-color: forestgreen;
+}
+#battery_head{
+    height: 6px;
+    width: 2px;
+    background-color: whitesmoke;
+    border-radius: 0px 2px 2px 0px;
+}
+
+
+/*右边结束*/

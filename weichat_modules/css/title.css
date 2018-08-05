@@ -1,0 +1,87 @@
+#title{
+    background: #212121;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ebedf4;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#title_left{
+    height:40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+#title_left_back_img{
+    height: 22px;
+    width: 22px;
+    margin-left: 6px;
+    background-image: url(../resourse/img/返回.svg);
+    background-size: cover;
+    background-position: center;
+}
+#title_left_back{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+#title_center{
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#title_right{
+    height:40px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#title_right_icon{
+    height: 22px;
+    width: 22px;
+    margin-right: 15px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+#title_add_menu{
+    position: absolute;
+    top: 90px;
+    right: 8px;
+    height: 140px;
+    width: 130px;
+    background-color: #26292E;
+
+}
+
+.title_add_menu_items{
+    height: 34px;
+    display: flex;
+
+}
+
+.title_add_menu_items_left{
+    width: 20px;
+    height: 20px;
+    margin-left: 14px;
+    background-size: cover;
+    background-position: center;
+}
+.title_add_menu_items_right{
+    height: 24px;
+    flex: 1;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 14px;
+}

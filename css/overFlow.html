@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .container {
+            height: 400px;
+            width: 200px;
+            border: 1px solid crimson;
+
+            /*overflow: hidden;*/
+            overflow-y: scroll;
+            /*
+                给定宽度的情况下 设置文本溢出显示省略号
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            */
+        }
+
+
+        .sub {
+            height: 800px;
+            width: 100px;
+            background-image: linear-gradient(to top , salmon , cornflowerblue);
+
+
+            margin: 0 auto; /* 子层相对于父层居中 */
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="sub"></div>
+</div>
+
+</body>
+</html>

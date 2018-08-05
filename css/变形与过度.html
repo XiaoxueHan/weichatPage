@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变形与过度</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .border{
+            border: 1px red solid;
+        }
+
+        .xuanzhuan{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        .go_xuanzhuan{
+            width: 200px;
+            height: 200px;
+            background-color: deepskyblue;
+            transition: all 1s linear;
+        }
+        .go_xuanzhuan:hover{
+            transform: rotate(180deg);
+        }
+
+        .go_xuanzhuan_origin{
+            width: 200px;
+            height: 200px;
+            background-color: deepskyblue;
+            transition: all 1s linear;
+            transform-origin: 0px 0px;
+        }
+        .go_xuanzhuan_origin:hover{
+            transform: rotate(180deg);
+
+        }
+
+        .suofang{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        .go_suofang{
+            width: 200px;
+            height: 200px;
+            background-color: #888888;
+            transition: all 1s linear .5s;
+        }
+        .go_suofang:hover{
+            transform: scale(1.2);
+        }
+
+        .weiyi{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        .go_weiyi{
+            width: 200px;
+            height: 200px;
+            background-color: #888888;
+            transition: all 1s linear .5s;
+        }
+        .go_weiyi:hover{
+            transform: translate(-50px,-100px);
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="xuanzhuan border">
+        <div class="go_xuanzhuan"></div>
+    </div>
+
+    <div class="xuanzhuan border">
+        <div class="go_xuanzhuan_origin"></div>
+    </div>
+
+    <hr>
+
+    <div class="suofang border">
+        <div class="go_suofang"></div>
+    </div>
+
+    <div class="weiyi border">
+        <div class="go_weiyi"></div>
+    </div>
+
+
+</body>
+</html>

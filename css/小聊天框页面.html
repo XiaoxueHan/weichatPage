@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天框</title>
+    <!--
+    ccabb 灰色
+    f5f6eb银白色
+    -->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 微软雅黑;
+        }
+
+        .border{
+            border: 1px red solid;
+        }
+
+        float_left{
+            float: left;
+        }
+        float_right{
+            float: right;
+        }
+
+        #container{
+            margin: 0 auto;
+            width: 450px;
+            height: 700px;
+            background-color: #eff0dc;
+            box-shadow: 2px 2px 6px lightgray;
+        }
+
+        #top{
+            width: 450px;
+            height: 50px;
+            background-color: #34352c;
+        }
+        #weichat{
+            font-size: 22px;
+            font-family: 宋体;
+            color: #ebedf4;
+            display: inline-block;
+            position: relative;
+            top: 5px;
+        }
+        #title{
+
+            font-size: 28px;
+            font-family: 宋体;
+            color: #ebedf4;
+            display: inline-block;
+            position: relative;
+            top: 5px;
+            left: 20px;
+        }
+
+
+        .icon_back{
+
+            height: 26px;
+            position: relative;
+            top: 10px;
+            display: inline-block;
+        }
+        .icon_voice{
+            height: 30px;
+            position: relative;
+            top: 10px;
+            left: 14px;
+            display: inline-block;
+        }
+        .icon_face{
+            height: 30px;
+            position: relative;
+            top: 10px;
+            left: 18px;
+            display: inline-block;
+        }
+        .icon_add{
+            height: 30px;
+            position: relative;
+            top: 10px;
+            left: 20px;
+            display: inline-block;
+        }
+
+
+        .middle{
+            width: 450px;
+            height: 600px;
+        }
+        .msg{
+            width: 450px;
+            height: 60px;
+            margin-bottom: 14px;
+        }
+        .person{
+            width: 60px;
+            height: 60px;
+            display: inline-block;
+        }
+        .person_img{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            display: inline-block;
+        }
+        .msg_contain{
+            width:380px;
+            height: 60px;
+            display: inline-block;
+            position: relative;
+            top:-16px;
+
+        }
+        .person_name{
+            height: 20px;
+            width: 380px;
+            color:#8a8a8a ;
+            font-size: 8px;
+            position: relative;
+            left: 10px;
+
+        }
+        .msg_box{
+
+            background-color: snow;
+            border-radius: 8px;
+            padding-left: 6px;
+
+            width: 300px;
+            line-height: 40px;
+            position: relative;
+            left: 5px;
+        }
+
+        .person_float{
+            width: 60px;
+            height: 60px;
+            float: right;
+        }
+        .person_img_float{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+
+        }
+        .msg_contain_float{
+            width:380px;
+            height: 60px;
+            float: right;
+        }
+        .person_name_right{
+            height: 20px;
+            width: 380px;
+            color:#8a8a8a ;
+            font-size: 8px;
+            float: right;
+            margin-right: 10px;
+            text-align: right;
+        }
+        .msg_box_right{
+
+            border-radius: 8px;
+            padding-right: 6px;
+            height: 80px;
+            width: 80px;
+            background-image: url(../resources/img/动图.gif);
+            background-size: cover;
+            position: relative;
+            left: 280px;
+            top: 24px;
+        }
+
+
+
+
+        .input_bar{
+            background-color: #e6e6e6;
+            width: 450px;
+            height: 50px;
+            box-shadow: 0px 0px 5px grey;
+        }
+        .input{
+            height: 30px;
+            width: 300px;
+            display: inline-block;
+            position: relative;
+            left: 18px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <div id="container" >
+        
+        <div id="top">
+            <img class="icon_back" src="../resources/img/svg/返回.svg"><div id="weichat">微信</div>
+            <div id="title">FY18-大数据1班(83)</div>
+            <img class="icon_back " style="left: 70px" src="../resources/img/svg/省略号.svg">
+        </div>
+
+
+        <div class="middle">
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain  ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+                </div>
+            </div>
+
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain  ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                    Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+                </div>
+            </div>
+
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain  ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                    Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+                </div>
+            </div>
+
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain  ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                    Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+            </div>
+            </div>
+
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain  ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                    Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+            </div>
+            </div>
+
+            <div class="msg ">
+                <div class="person  ">
+                    <img class="person_img" src="../resources/img/person_headpicture/头像1.png">
+                </div><div class="msg_contain ">
+                <div class="person_name">Justing Biber</div>
+                <div class="msg_box">
+                    Hello , baby ~ baby~ baby~ oh~~~
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="msg  ">
+                <div class="person_float ">
+                    <img class="person_img_float" src="../resources/img/person_headpicture/头像2.png">
+                </div>
+                <div class="msg_contain_float">
+                    <div class="person_name_right" >
+                        Justin hamburger
+                    </div><div class="msg_box_right ">
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="input_bar">
+            <img class="icon_voice" src="../resources/img/svg/语音.svg"><input class="input" >
+            <img class="icon_face" src="../resources/img/svg/表情.svg">
+            <img class="icon_add" src="../resources/img/svg/加号.svg">
+        </div>
+    </div>
+
+</body>
+</html>

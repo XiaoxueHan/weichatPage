@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    行级元素横向排布，无法设置宽高 ；块级元素独占一行，可以设置宽高    -->
+    <!--    display:inline-block综合行级元素与块级元素的特点    -->
+    <style>
+        .a1 {
+            background-color: crimson;
+            height: 50px;
+            width: 50px;
+            text-decoration: none;  /*去除下划线*/
+
+            display: inline-block;
+        }
+
+        .d1 {
+            font-family: 微软雅黑;
+            font-size: 15px;
+            background-color: lightseagreen;
+            height: 50px;
+            width: 50px;
+            text-align: center;
+            display: inline-block;
+
+        }
+    </style>
+
+</head>
+<body>
+
+
+<a href="" class="a1">java</a>
+<a href="" class="a1">java</a>
+<a href="" class="a1">java</a>
+<a href="" class="a1">java</a>
+
+<hr>
+
+<div class="d1" contenteditable="true" >java</div>  /*contenteditable 可编辑*/
+<div class="d1">java</div>
+
+
+
+</body>
+</html>

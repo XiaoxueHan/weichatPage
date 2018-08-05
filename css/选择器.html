@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        td { background-color: #888888; color: #c7ad88; border-radius: 20px; width: 40px; height: 30px} /*标签选择器*/
+        .color{color: aqua}                                                                             /*类选择器*/
+        #id { background-color: cadetblue}                                                              /*id选择器*/
+        p , hr{}                                                                                        /*组合选择器*
+        tr td{ background-color: blueviolet}                                                            /*后代选择器*/
+        tr :nth-child(2n){background-color: chartreuse}                                                 /*nth选择器*/
+        div>table{ background-color: antiquewhite; border-radius: 10px; border: #888888 1px solid}      /*直接子元素选择器*/
+        hr+p{ color: aqua}                                                                              /*相邻兄弟选择器*/
+        hr~p{ font-family: 宋体}                                                                        /*后续兄弟选择器*/
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr class="color">
+            <td id="id">Hello</td>
+            <td>world</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <div>
+        <table>
+            <tr>
+                <td>
+                    hello
+                </td>
+                <td>
+                    world
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <p>hello</p>
+    <p>world</p>
+
+</body>
+</html>

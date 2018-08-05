@@ -1,0 +1,433 @@
+#content{
+    background-color: #DCD9D8;
+    flex: 1;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+#content_research{
+    height: 60px;
+    display: flex;
+}
+.content_items{
+     height: 60px;
+     display: flex;
+     background-color: whitesmoke;
+ }
+
+#research{
+    width: 94%;
+    height: 36px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    display: flex;
+}
+#research_left{
+    flex: 1;
+}
+#research_center{
+    width: 80px;
+    height:30px;
+    display: flex;
+}
+#maganify{
+    width: 18px ;
+    height: 18px;
+    background-image: url(../resourse/img/放大镜.svg);
+    background-position: center;
+    background-size: contain;
+    margin-right: 4px;
+}
+#research_text{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+#research_right{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+}
+#research_voice{
+    width: 18px ;
+    height: 18px;
+    background-image: url(../resourse/img/麦克风.svg);
+    background-position: center;
+    background-size: contain;
+    margin-right: 4px;
+}
+
+.person_img{
+    width: 46px;
+    height: 46px;
+    margin-left: 8px;
+    background-size: cover;
+    background-position: center;
+}
+.content_items_right{
+    flex: 1;
+    height:46px;
+    margin-right: 8px;
+}
+.content_items_right_up{
+    height: 23px;
+    display: flex;
+}
+.content_items_right_up_nickname{
+    height: 16px;
+    margin-left: 4px;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    flex: 1;
+}
+.content_items_right_up_time{
+    height: 16px;
+    width: 70px;
+    font-size: 8px;
+    text-align: right;
+    color: #8a8a8a;
+    line-height: 16px;
+
+
+}
+.content_items_right_down{
+    height: 23px;
+    display: flex;
+}
+.content_items_right_down_msg{
+     height: 23px;
+     width: 250px;
+     color: #8a8a8a;
+     margin-left: 4px;
+     font-size: 13px;
+
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+ }
+.content_items_right_down_voice{
+    height: 23px;
+    width: 250px;
+    color: crimson;
+    margin-left: 4px;
+    font-size: 13px;
+}
+.content_items_right_down_silence{
+    height: 16px;
+    flex: 1;
+}
+
+.discover_content_items{
+    height: 44px;
+    display: flex;
+    background-color: whitesmoke;
+}
+.discover_content_div_1{
+    height: 44px;
+    margin: 16px 0px;
+}
+.discover_content_div_2{
+    height: 88px;
+    margin-bottom: 16px;
+}
+.discover_content_items_l{
+    flex: 1;
+    display: flex;
+}
+.discover_content_items_r{
+    flex: 1;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.discover_content_items_l_icon{
+    width: 24px;
+    height: 24px;
+    margin:0px 10px;
+    background-position: center;
+    background-size: cover;
+}
+.discover_content_items_l_text{
+    height: 24px;
+    line-height: 24px;
+    flex: 1;
+}
+.discover_content_items_r_text{
+    text-align: right;
+    height: 16px;
+    line-height: 16px;
+    font-size: 8px;
+    flex: 1;
+}
+.discover_content_items_r_icon_point{
+    width: 8px;
+    height: 8px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+    left: 36px;
+    bottom: 10px;
+}
+.discover_content_items_r_icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    background-image: url(../resourse/img/前进号.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.me_content_div_mypage{
+
+}
+#me_content_mypage{
+    height: 100px;
+    background-color: whitesmoke;
+    margin: 16px 0px 0px 0px;
+    display: flex;
+}
+#me_mypage_l{
+    height:70px ;
+    width: 70px;
+    border-radius: 10px;
+    margin:0px 10px;
+    background-size: cover;
+    background-position: center;
+}
+#me_mypage_center{
+    flex: 1;
+    height: 70px;
+    display: flex;
+    flex-flow: column;
+}
+#me_mypage_center_up{
+    height: 35px;
+    font-size: 20px;
+    line-height: 35px;
+}
+#me_mypage_center_down{
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+}
+#me_mypage_r{
+    width: 70px;
+}
+#me_mypage_2codeimg{
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+    background-image:url(../resourse/img/二维码.svg);
+    background-position: center;
+    background-size: cover;
+}
+.me_content_div_1{
+    height: 44px;
+    margin: 16px 0px 0px 0px;
+}
+.me_content_div_4{
+    height: 176px;
+    margin: 16px 0px 0px 0px;
+}
+
+.communication{
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.communication_img{
+    height: 34px;
+    width: 34px;
+    border-radius: 4px;
+    margin: 0 8px;
+    background-size: cover;
+    background-position: center;
+}
+.communication_nickname{
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    flex: 1;
+}
+.abc{
+    font-size: 10px;
+
+}
+
+#detail_mypage_center_up{
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#detail_mypage_center_center{
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+#detail_mypage_center_down{
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8a8a8a;
+}
+#detail_3{
+    height: 176px;
+}
+#detail_3_center{
+    height: 88px;
+    background-color: whitesmoke;
+    display: flex;
+}
+.detail_3_center_pic{
+    width: 54px;
+    height: 54px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#detail_btn_1{
+    height: 34px;
+    width: 80%;
+    background-color: green;
+    color: #ebedf4;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+#detail_btn_2{
+    height: 34px;
+    width: 80%;
+    background-color: whitesmoke;
+    color: #212121;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+
+#py_cricle_img{
+    height: 220px;
+    background-image: url(../resourse/img/py圈背景图.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#py_cricle_img_nickname{
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+#py_cricle_img_pic{
+    height: 70px;
+    width: 70px;
+    background-image: url(../resourse/img/我的微信头像.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px whitesmoke solid;
+    position: relative;
+    top: 26px;
+    right: 10px;
+}
+
+.py_cricle_msg{
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+}
+.py_cricle_msg_l{
+    height: 100%;
+    width: 80px;
+}
+.py_cricle_friends_pic{
+    width: 40px;
+    height: 40px;
+    margin: 16px 0px 0px 16px;
+    background-size: cover;
+    background-position: center;
+}
+.py_cricle_msg_r{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.py_cricle_friends_name{
+    height: 20px;
+    margin-top: 10px;
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.py_cricle_friends_msg{
+    height: 20px;
+    width: 260px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #212121;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    flex: 1;
+}
+.py_cricle_friends_down{
+    height: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.py_cricle_friends_time{
+    font-size: 8px;
+    color: gray;
+}
+.py_cricle_friends_talk{
+    height: 18px;
+    width: 18px;
+    background-image: url(../resourse/img/评论.svg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.py_cricle_msg_r{
+    height: 80px;
+    margin-top: 10px;
+    display: flex;
+}
+.py_cricle_msgAndpic_r{
+    height: 180px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+}
+.py_cricle_friends_msg_pic{
+    flex: 1;
+    width:200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.py_cricle_msgAndpic{
+    height: 180px;
+    display: flex;
+}
+.py_cricle_msgAndpic_r{
+    flex: 1;
+}
+
